@@ -3,7 +3,7 @@
 ## How to build
 
 ## How to run
- ./hanoi-game <number of disks>
+ ./hanoi-game [number of disks]
 
  Type "q" to quit
 
