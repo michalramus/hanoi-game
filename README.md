@@ -8,7 +8,9 @@ cmake --build build --config Release --target all
 ```
 
 ## How to run
+```bash
  ./hanoi-game [number of disks]
+```
 
  Type "q" to quit
 
