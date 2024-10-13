@@ -13,6 +13,11 @@ void draw(int diskCount, List<int> stacks[3], int selectedStack, int selectedDis
 int main(int argc, char *argv[]) {
     List<int> stacks[3];
 
+    if (argc != 2) {
+        std::cout << "Usage: " << argv[0] << " <disk count>" << std::endl;
+        return 1;
+    }
+
     int count = std::stoi(argv[1]);
     int selectedStack = 0;
     int selectedDisk = 0;
